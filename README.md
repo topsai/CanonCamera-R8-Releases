@@ -4,13 +4,20 @@
 
 ## 下载
 
-当前开发预发布版本：**0.5.62**（2026-10-21）。
+当前开发预发布版本：**0.5.63**（2026-10-21）。
 
-[下载0.5.62 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.62) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
+[下载0.5.63 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.63) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
 
 支持Android8.0及以上，设备需要USB Host/OTG。安装由Android系统确认；开发预发布版本并非所有设备都已完成实机验收。
 
 ## 更新日志
+
+### 0.5.63 · 间隔拍摄与开关状态
+
+- 将B门入口替换为间隔拍摄，可设置秒数与张数，运行中可停止。
+- 由App计时，需要保持前台和USB连接；退到后台或断开会停止，相机忙/长曝光可能延长间隔。
+- 自动对焦和自动传输开启时为绿色背景，关闭时为灰色。
+- 此版间隔拍摄及开关显示仍待实体手机/相机复测。
 
 ### 0.5.62 · 统一设置布局
 
@@ -58,6 +65,7 @@
 
 | 版本 | 发布日期（北京时间） | 更新说明 |
 | --- | --- | --- |
+| 0.5.63 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.63) |
 | 0.5.62 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.62) |
 | 0.5.61 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.61) |
 | 0.5.60 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.60) |
