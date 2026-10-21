@@ -4,13 +4,19 @@
 
 ## 下载
 
-当前开发预发布版本：**0.5.59**（2026-10-21）。
+当前开发预发布版本：**0.5.60**（2026-10-21）。
 
-[下载0.5.59 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.59) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
+[下载0.5.60 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.60) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
 
 支持Android8.0及以上，设备需要USB Host/OTG。安装由Android系统确认；开发预发布版本并非所有设备都已完成实机验收。
 
 ## 更新日志
+
+### 0.5.60 · 更新安装文件隔离
+
+- 各版本使用独立校验文件和安装URI，修复固定地址复用旧安装内容的问题。
+- 如果旧版提示安装相同版本，本次请直接下载0.5.60 APK覆盖安装，无需卸载或清除数据。
+- 56项单元测试、6组模拟器回归及连续两次实际安装通过；原手机厂商安装器仍待复测。
 
 ### 0.5.59 · 原生10×与视频斑马线
 
@@ -39,6 +45,7 @@
 
 | 版本 | 发布日期（北京时间） | 更新说明 |
 | --- | --- | --- |
+| 0.5.60 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.60) |
 | 0.5.59 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.59) |
 | 0.5.58 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.58) |
 | 0.5.57 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.57) |
