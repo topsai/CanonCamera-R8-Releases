@@ -4,13 +4,20 @@
 
 ## 下载
 
-当前开发预发布版本：**0.5.64**（2026-10-23）。
+当前开发预发布版本：**0.5.65**（2026-10-23）。
 
-[下载0.5.64 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.64) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
+[下载0.5.65 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.65) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
 
 支持Android8.0及以上，设备需要USB Host/OTG。安装由Android系统确认；开发预发布版本并非所有设备都已完成实机验收。
 
 ## 更新日志
+
+### 0.5.65 · 修复R8一次性校时
+
+- 修正R8未提供标准时间读取命令时无法校时的问题，使用已验证的Canon EOS路径。
+- 手动点击仅同步一次，写入前核对时区，写入后重新请求回读；不会自动同步。
+- 实体R8照片待机、+08:00时区下，App按钮校时后新请求回读与手机相差0秒；视频待机、其他机型/固件和时区仍待实测。
+- 手机GPS仍未找到可验证的USB坐标写入接口，保持不可用；机身角度和原生时间码未接入。校时可能影响Free run时间码，请在非拍摄期间操作。
 
 ### 0.5.64 · 一次性相机校时
 
@@ -72,6 +79,7 @@
 
 | 版本 | 发布日期（北京时间） | 更新说明 |
 | --- | --- | --- |
+| 0.5.65 | 2026-10-23 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.65) |
 | 0.5.64 | 2026-10-23 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.64) |
 | 0.5.63 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.63) |
 | 0.5.62 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.62) |
