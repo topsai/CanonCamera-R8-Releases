@@ -4,13 +4,19 @@
 
 ## 下载
 
-当前开发预发布版本：**0.5.65**（2026-10-23）。
+当前开发预发布版本：**0.5.66**（2026-10-23）。
 
-[下载0.5.65 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.65) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
+[下载0.5.66 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.66) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
 
 支持Android8.0及以上，设备需要USB Host/OTG。安装由Android系统确认；开发预发布版本并非所有设备都已完成实机验收。
 
 ## 更新日志
+
+### 0.5.66 · 精简相机同步设置
+
+- 删除照片和视频设置中校时下方的固定说明、手机定位开关及定位不可用说明。
+- 保留同步时间按钮和动态结果，不自动校时；本次不改变校时协议。
+- GPS仍未实现，未新增定位权限或后台定位。校时可能影响Free run时间码，请在非拍摄期间操作。
 
 ### 0.5.65 · 修复R8一次性校时
 
@@ -79,6 +85,7 @@
 
 | 版本 | 发布日期（北京时间） | 更新说明 |
 | --- | --- | --- |
+| 0.5.66 | 2026-10-23 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.66) |
 | 0.5.65 | 2026-10-23 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.65) |
 | 0.5.64 | 2026-10-23 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.64) |
 | 0.5.63 | 2026-10-21 | [查看更新日志](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.63) |
