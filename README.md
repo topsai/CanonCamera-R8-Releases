@@ -4,13 +4,21 @@
 
 ## 下载
 
-当前开发预发布版本：**0.5.66**（2026-10-23）。
+当前开发预发布版本：**0.5.68**（2026-11-05）。
 
-[下载0.5.66 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.66) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
+[下载0.5.68 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.68) · [全部版本](https://github.com/topsai/CanonCamera-R8-Releases/releases) · [更新日志](#更新日志)
 
 支持Android8.0及以上，设备需要USB Host/OTG。安装由Android系统确认；开发预发布版本并非所有设备都已完成实机验收。
 
 ## 更新日志
+
+### 0.5.68 · 修正10×实际显示区域
+
+- 按机身指定的有效区域显示R8的10×取景，修复其画面与5×相同的问题。
+- 保留原生倍率指令、机身倍率回读，以及暂停取景/切后台后恢复1×的修复。
+- 保留完整原片缓存身份校验和不同USB会话隔离。
+
+已在R8与Android 15手机上，通过App按钮验证照片/视频、横屏/竖屏的1×、5×、10×。其他机型或不同取景数据布局尚未确认。
 
 ### 0.5.67 · 已撤回公开下载
 
