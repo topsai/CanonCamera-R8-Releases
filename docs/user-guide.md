@@ -1,8 +1,8 @@
 # 佳能相机控制使用手册
 
-适用于 **Android 0.5.68**。使用手机通过 USB 连接相机，进行实时取景、遥控拍摄、视频监看和存储卡媒体管理。主要开发与实测机型为 **Canon EOS R8**；其他机型的可用参数以实际连接结果为准。
+适用于 **Android 0.5.69**。使用手机通过 USB 连接相机，进行实时取景、遥控拍摄、视频监看和存储卡媒体管理。主要开发与实测机型为 **Canon EOS R8**；其他机型的可用参数以实际连接结果为准。
 
-[返回主页](../README.md) · [下载 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.68) · [版本记录](https://github.com/topsai/CanonCamera-R8-Releases#更新日志)
+[返回主页](../README.md) · [下载 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.69) · [版本记录](https://github.com/topsai/CanonCamera-R8-Releases#更新日志)
 
 > 本手册插图为界面示意，图中场景、数值和开关状态用于讲解，不是真实拍摄素材或默认配置。
 
@@ -34,7 +34,7 @@
 
 ### 第一次使用
 
-1. [下载 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.68)，按手机系统提示安装。系统如询问安装来源，确认你打开的是本项目的 APK。
+1. [下载 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.69)，按手机系统提示安装。系统如询问安装来源，确认你打开的是本项目的 APK。
 2. 相机开机并回到正常取景，接好手机与相机之间的数据线。手机若有 OTG 开关，先开启。
 3. 打开 App，在 Android 弹出的 USB 访问提示中选择允许。日常使用不需要开发者模式或无线调试。
 4. 等待 App 识别相机。出现相机型号、实时画面及“断开”按钮，表示已经连接。
@@ -80,6 +80,10 @@ App 只提供机身当前允许的选项。相机忙、正在传输、当前档�
 - **M 档＋固定 ISO**：显示机身提供的实时测光偏差，用来判断当前曝光相对测光结果的偏移。
 - **支持曝光补偿的状态**：显示机身曝光补偿值。是否可调由当前模式决定。
 - 没有有效读数时可能没有指针；App 不把缺失的数据画成零，也不用画面亮度猜测机身测光。
+
+### 电池图标怎么看
+
+电量使用机身返回的档位显示为电池格数，**不是精确百分比**：3–4 格绿色，2 格黄色，1 格红色；耗尽档显示红色空电池。灰色带横线表示未提供有效电量或相机未连接，不代表电池已耗尽。各档停留时间不保证相同。
 
 ### 放大取景与点击对焦
 
