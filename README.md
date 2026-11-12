@@ -2,7 +2,7 @@
 
 **用 Android 手机，通过 USB 直接遥控佳能相机。** 查看实时画面、拍照 / 录像、调整机身开放的参数，并浏览和传输存储卡里的媒体。主要开发与实测机型为 **EOS R8**。
 
-**[下载 0.5.78 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/download/android-v0.5.78/CanonCamera-Android-0.5.78.apk)** · [图文使用手册](docs/user-guide.md) · [更新日志](CHANGELOG.md) · [反馈问题](https://github.com/topsai/CanonCamera-R8-Releases/issues)
+**[下载 0.5.79 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/download/android-v0.5.79/CanonCamera-Android-0.5.79.apk)** · [图文使用手册](docs/user-guide.md) · [更新日志](CHANGELOG.md) · [反馈问题](https://github.com/topsai/CanonCamera-R8-Releases/issues)
 
 > 当前为开发预发布版。支持 Android 8.0 及以上，手机须支持 USB Host / OTG；其他机型与固件的完整兼容性尚未确认。本项目不是佳能官方应用。
 
@@ -45,13 +45,13 @@
 
 ## 更新日志
 
-**0.5.78 · 2026-11-12**。照片和视频的档位文字加大并加粗，与设置齿轮形成更接近的视觉大小；横竖屏统一，较长档位名称自动适应按钮宽度。
+**0.5.79 · 2026-11-12**。竖屏拍摄页在相机型号后以小字显示当前 APK 版本号。 统一相机模式、显示模式和设置图标的视觉尺寸。
 
-**0.5.67 已撤回公开下载**，请使用 0.5.78。历史说明保留在[完整更新日志](CHANGELOG.md)和[各版本 Release](https://github.com/topsai/CanonCamera-R8-Releases/releases)。
+**0.5.67 已撤回公开下载**，请使用 0.5.79。历史说明保留在[完整更新日志](CHANGELOG.md)和[各版本 Release](https://github.com/topsai/CanonCamera-R8-Releases/releases)。
 
 ## 下载与项目范围
 
-- [当前版本说明与 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.78)
+- [当前版本说明与 APK](https://github.com/topsai/CanonCamera-R8-Releases/releases/tag/android-v0.5.79)
 - [全部公开版本](https://github.com/topsai/CanonCamera-R8-Releases/releases)
 - [问题反馈](https://github.com/topsai/CanonCamera-R8-Releases/issues)：请附 App 版本、手机 / Android 版本、相机 / 固件及复现步骤，分享截图前遮去私人内容。
 
